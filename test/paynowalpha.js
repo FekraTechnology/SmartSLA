@@ -1,5 +1,30 @@
 contract('PayNowAlpha', function(accounts) {
 
+  it("should create a new incident", function() {
+    var itc = PayNowAlpha.deployed();
+    var inc_requester = accounts[0];
+    var inc_sys_id = "f41a73";
+    var inc_created = "2016-10-31 08:48:27";
+
+    return itc.createIncident(inc_requester, inc_sys_id, inc_created).then(function(isIncCreated) {
+      assert(isIncCreated, "Incident not created!");
+
+    });
+  });
+
+  it("should return an open incident state", function() {
+    var itc = PayNowAlpha.deployed();
+    var inc_requester = accounts[0];
+    var inc_sys_id = "f41a73";
+    var inc_created = "100";
+
+    return itc.createIncident(inc_requester, inc_sys_id, inc_created).then(function() {
+      return itc.readIncidentState(inc_sys_id).then(function(state) {
+        assert.equal(state, "open", "state not open!");
+      });
+    });
+  });
+
   it("should get the latest updated timestamp", function() {
     var itc = PayNowAlpha.deployed();
     var inc_requester = accounts[0];
@@ -35,33 +60,6 @@ contract('PayNowAlpha', function(accounts) {
       });
     });
   });
-
-
-  it("should create a new incident", function() {
-    var itc = PayNowAlpha.deployed();
-    var inc_requester = accounts[0];
-    var inc_sys_id = "f41a73";
-    var inc_created = "2016-10-31 08:48:27";
-
-    return itc.createIncident(inc_requester, inc_sys_id, inc_created).then(function(isIncCreated) {
-      assert(isIncCreated, "Incident not created!");
-
-    });
-  });
-
-  it("should return an open incident state", function() {
-    var itc = PayNowAlpha.deployed();
-    var inc_requester = accounts[0];
-    var inc_sys_id = "f41a73";
-    var inc_created = "100";
-
-    return itc.createIncident(inc_requester, inc_sys_id, inc_created).then(function() {
-      return itc.readIncidentState(inc_sys_id).then(function(state) {
-        assert.equal(state, "open", "state not open!");
-      });
-    });
-  });
-
 
   it("should update the state of an incident to wip", function() {
     var itc = PayNowAlpha.deployed();
