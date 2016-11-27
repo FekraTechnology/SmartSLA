@@ -1,0 +1,390 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="model" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>PayNow</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) / UI / LAYOUT -->
+	<script type="text/javascript" src="lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui/js/jquery-ui-1.11.2.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui-layout/js/jquery.layout-1.4.4.js"></script>
+	<link type="text/css" rel="stylesheet" href="lib/jquery-ui-layout/css/layout-default-1.4.4.css">
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="css/model.css">
+	<link type="text/css" rel="stylesheet" href="css/i18n.css">
+	<script type="text/javascript" src="js/model.js"></script>
+</head>
+
+<body>
+	<!-- "ui-layout-north" class set (topbar) -->
+	<div class="ui-layout-north">
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+				<span class="navbar-brand">PayNow</span>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#myModal" data-toggle="modal" class="btn go"><span class="i18n-about"></span></a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<iframe name="view" class="ui-layout-center" src="views/model.html" scrolling="no"></iframe>
+
+	<div class="ui-layout-west">
+		<iframe name="element" class="ui-layout-south" src="elements/empty-element.html"  scrolling="no"></iframe>
+		<div class="ui-layout-center">
+			<div class="panel panel-default root-panel">
+				<div class="panel-heading root-panel-heading">
+					<b><span class="i18n-modeltree"></span></b>
+				</div>
+				<div class="panel-body root-panel-body">
+					<b><a href="views/model.html" target="view">PayNow</a></b>
+					<ul class="tree">
+					<!-- START OF STRINGTEMPLATE CODE -->
+						<li><span class="i18n-model_content"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+							<ul>
+								<li><span class="i18n-business_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+													<li class="tree-element"><a href="elements/75d26025.html" target="element"> Service Provider </a></li>
+													<li class="tree-element"><a href="elements/7430b38a.html" target="element"> Service Consumer </a></li>
+													<li class="tree-element"><a href="elements/c633df8a.html" target="element"> Requester </a></li>
+													<li class="tree-element"><a href="elements/96d14f95.html" target="element"> Fulfiller </a></li>
+													<li class="tree-element"><a href="elements/d9b126b8.html" target="element"> Service Agreement </a></li>
+													<li class="tree-element"><a href="elements/1dca85ea.html" target="element"> Service Desk </a></li>
+													<li class="tree-element"><a href="elements/cb617a48.html" target="element"> IMaaS </a></li>
+													<li class="tree-element"><a href="elements/9646d6e8.html" target="element"> Incident Ticket/Request </a></li>
+													<li class="tree-element"><a href="elements/7e1dcbf0.html" target="element"> Open new Incident </a></li>
+													<li class="tree-element"><a href="elements/bc02e1bf.html" target="element"> Requested  </a></li>
+													<li class="tree-element"><a href="elements/60262786.html" target="element"> Facknowledged  </a></li>
+													<li class="tree-element"><a href="elements/0ecbcd32.html" target="element"> Opened  </a></li>
+													<li class="tree-element"><a href="elements/7e548be9.html" target="element"> Assigned  </a></li>
+													<li class="tree-element"><a href="elements/5b059180.html" target="element"> GAcknowledged  </a></li>
+													<li class="tree-element"><a href="elements/71b44618.html" target="element"> Pending  </a></li>
+													<li class="tree-element"><a href="elements/c4f17f85.html" target="element"> Resolved  </a></li>
+													<li class="tree-element"><a href="elements/531870e0.html" target="element"> Worked  </a></li>
+													<li class="tree-element"><a href="elements/ca629ab4.html" target="element"> Canceled  </a></li>
+													<li class="tree-element"><a href="elements/1fb660b3.html" target="element"> Closed  </a></li>
+													<li class="tree-element"><a href="elements/6db30003.html" target="element"> Requester </a></li>
+													<li class="tree-element"><a href="elements/408c9cc2.html" target="element"> Smart Agreement Template </a></li>
+													<li class="tree-element"><a href="elements/d9f878bd.html" target="element"> Implement Agreement </a></li>
+													<li class="tree-element"><a href="elements/9f8e9022.html" target="element"> Operate Agreement </a></li>
+													<li class="tree-element"><a href="elements/c6434aa4.html" target="element"> Update Agreement </a></li>
+													<li class="tree-element"><a href="elements/25e71bf9.html" target="element"> Terminate Agreement </a></li>
+													<li class="tree-element"><a href="elements/e9e88d47.html" target="element"> Retire Agreement </a></li>
+													<li class="tree-element"><a href="elements/1dae7697.html" target="element"> 3rd Party </a></li>
+													<li class="tree-element"><a href="elements/ae20d337.html" target="element"> Demand for new SmartAgreement </a></li>
+													<li class="tree-element"><a href="elements/e99414cd.html" target="element"> Define SmartAgreement Draft </a></li>
+													<li class="tree-element"><a href="elements/d70dd147.html" target="element"> SmartAgreement Templates </a></li>
+													<li class="tree-element"><a href="elements/8ab7086b.html" target="element"> Issue RFP </a></li>
+													<li class="tree-element"><a href="elements/8ebdc79a.html" target="element"> Evaluate Proposals </a></li>
+													<li class="tree-element"><a href="elements/fbbacaec.html" target="element"> Award Proposal </a></li>
+													<li class="tree-element"><a href="elements/bfeb7a68.html" target="element"> Request for Proposal </a></li>
+													<li class="tree-element"><a href="elements/e09b940b.html" target="element"> Design SmartAgreement Offering </a></li>
+													<li class="tree-element"><a href="elements/c4c07ae3.html" target="element"> Proposal </a></li>
+													<li class="tree-element"><a href="elements/e75d2fbb.html" target="element"> Negotiate terms and conditions </a></li>
+													<li class="tree-element"><a href="elements/713fcea4.html" target="element"> Procurement </a></li>
+													<li class="tree-element"><a href="elements/8788c92a.html" target="element"> Solicitation </a></li>
+													<li class="tree-element"><a href="elements/ff0d153e.html" target="element"> Selection </a></li>
+													<li class="tree-element"><a href="elements/caf068a1.html" target="element"> Budgetting </a></li>
+													<li class="tree-element"><a href="elements/8ae95a75.html" target="element"> Charging </a></li>
+													<li class="tree-element"><a href="elements/89239ca6.html" target="element"> Accounting </a></li>
+													<li class="tree-element"><a href="elements/a329fc5a.html" target="element"> Service </a></li>
+													<li class="tree-element"><a href="elements/2006ac2a.html" target="element"> Supplier </a></li>
+													<li class="tree-element"><a href="elements/2fbfd0a8.html" target="element"> Clearance </a></li>
+													<li class="tree-element"><a href="elements/cb999f8f.html" target="element"> Duration </a></li>
+													<li class="tree-element"><a href="elements/8ef3ae4e.html" target="element"> Interfaces </a></li>
+													<li class="tree-element"><a href="elements/6c1f245d.html" target="element"> Communication </a></li>
+													<li class="tree-element"><a href="elements/140eefd6.html" target="element"> Service Times </a></li>
+													<li class="tree-element"><a href="elements/5b3b6eeb.html" target="element"> Support Types </a></li>
+													<li class="tree-element"><a href="elements/2eab7f76.html" target="element"> Support Levels </a></li>
+
+									</ul>
+								</li>
+								<li><span class="i18n-application_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+													<li class="tree-element"><a href="elements/7c84df22.html" target="element"> Incident Record/Object </a></li>
+													<li class="tree-element"><a href="elements/46670a3d.html" target="element"> incidents[sys_id] </a></li>
+													<li class="tree-element"><a href="elements/5054a846.html" target="element"> Stages </a></li>
+													<li class="tree-element"><a href="elements/f43a5a75.html" target="element"> States </a></li>
+
+									</ul>
+								</li>
+								<li><span class="i18n-technology_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+													<li class="tree-element"><a href="elements/276c162e.html" target="element"> opened_at </a></li>
+													<li class="tree-element"><a href="elements/84b7368f.html" target="element"> opened_by </a></li>
+													<li class="tree-element"><a href="elements/b4ee3376.html" target="element"> state </a></li>
+													<li class="tree-element"><a href="elements/2debd40b.html" target="element"> current state </a></li>
+													<li class="tree-element"><a href="elements/1ac4b359.html" target="element"> latest change </a></li>
+													<li class="tree-element"><a href="elements/e9ec9136.html" target="element"> state changes </a></li>
+
+									</ul>
+								</li>
+								<li><span class="i18n-motivation"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+									</ul>
+								</li>
+								<li><span class="i18n-implementation"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+									</ul>
+								</li>
+								<li><span class="i18n-connectors"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+									</ul>
+								</li>
+								<li><span class="i18n-relations"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+													<li class="tree-element"><a href="elements/8c587d4c.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(state - current state) 
+													</a></li>
+													<li class="tree-element"><a href="elements/c33538fa.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(state - latest change) 
+													</a></li>
+													<li class="tree-element"><a href="elements/a0044e82.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(state - state changes) 
+													</a></li>
+													<li class="tree-element"><a href="elements/7adce686.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Requester - Open new Incident) 
+													</a></li>
+													<li class="tree-element"><a href="elements/6391cae7.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Open new Incident - Requested ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/45417fff.html" target="element">
+															Assign to group
+														(Requested  - Opened ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/b0a2e30f.html" target="element">
+															Group Acknowledge
+														(Opened  - GAcknowledged ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/553d4827.html" target="element">
+															Assign to user
+														(Facknowledged  - Assigned ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/5f182381.html" target="element">
+															Work in progress
+														(Facknowledged  - Worked ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/7ea78134.html" target="element">
+															Wait
+														(Worked  - Pending ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/07d65b51.html" target="element">
+															Resolve
+														(Worked  - Resolved ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/005746b7.html" target="element">
+															Close
+														(Resolved  - Closed ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/1b9007d8.html" target="element">
+															Cancel
+														(Resolved  - Canceled ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/89bafdcf.html" target="element">
+															Cancel
+														(Worked  - Canceled ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/64616c09.html" target="element">
+															<span class="i18n-elementtype-FlowRelationship"></span>
+														(Pending  - Canceled ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/6e1e152e.html" target="element">
+															Fulfiller Acknowledge
+														(Facknowledged  - Canceled ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/656c79a5.html" target="element">
+															Cancel
+														(GAcknowledged  - Canceled ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/a545cbf7.html" target="element">
+															<span class="i18n-elementtype-FlowRelationship"></span>
+														(Opened  - Canceled ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/ae11cabf.html" target="element">
+															Cancel
+														(Assigned  - Canceled ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/6021757e.html" target="element">
+															Cancel
+														(Requested  - Canceled ) 
+													</a></li>
+													<li class="tree-element"><a href="elements/fa1e9f80.html" target="element">
+															<span class="i18n-elementtype-SpecialisationRelationship"></span>
+														(Service Agreement - Smart Agreement Template) 
+													</a></li>
+													<li class="tree-element"><a href="elements/4c5e30dd.html" target="element">
+															Contracted with
+														(Service Provider - Service Consumer) 
+													</a></li>
+													<li class="tree-element"><a href="elements/f759b801.html" target="element">
+															Party of
+														(Service Consumer - Service Agreement) 
+													</a></li>
+													<li class="tree-element"><a href="elements/bb478097.html" target="element">
+															Party of
+														(Service Provider - Service Agreement) 
+													</a></li>
+													<li class="tree-element"><a href="elements/4560e151.html" target="element">
+															<span class="i18n-elementtype-FlowRelationship"></span>
+														(Implement Agreement - Operate Agreement) 
+													</a></li>
+													<li class="tree-element"><a href="elements/cf500ded.html" target="element">
+															<span class="i18n-elementtype-FlowRelationship"></span>
+														(Operate Agreement - Retire Agreement) 
+													</a></li>
+													<li class="tree-element"><a href="elements/5f2996b4.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Operate Agreement - Update Agreement) 
+													</a></li>
+													<li class="tree-element"><a href="elements/0722fc62.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Operate Agreement - Terminate Agreement) 
+													</a></li>
+													<li class="tree-element"><a href="elements/440e619e.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Service Consumer - Demand for new SmartAgreement) 
+													</a></li>
+													<li class="tree-element"><a href="elements/c0349cfd.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Demand for new SmartAgreement - Define SmartAgreement Draft) 
+													</a></li>
+													<li class="tree-element"><a href="elements/226ccb8a.html" target="element">
+															<span class="i18n-elementtype-UsedByRelationship"></span>
+														(SmartAgreement Templates - Define SmartAgreement Draft) 
+													</a></li>
+													<li class="tree-element"><a href="elements/753473fa.html" target="element">
+															<span class="i18n-elementtype-AssignmentRelationship"></span>
+														(Service Provider - Design SmartAgreement Offering) 
+													</a></li>
+													<li class="tree-element"><a href="elements/aaa83080.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Design SmartAgreement Offering - Request for Proposal) 
+													</a></li>
+													<li class="tree-element"><a href="elements/affcfee6.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Design SmartAgreement Offering - Proposal) 
+													</a></li>
+													<li class="tree-element"><a href="elements/99716a1e.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Issue RFP - Request for Proposal) 
+													</a></li>
+													<li class="tree-element"><a href="elements/033e360a.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Define SmartAgreement Draft - Issue RFP) 
+													</a></li>
+													<li class="tree-element"><a href="elements/86ef75e8.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(3rd Party - SmartAgreement Templates) 
+													</a></li>
+													<li class="tree-element"><a href="elements/201c5607.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Evaluate Proposals - Proposal) 
+													</a></li>
+													<li class="tree-element"><a href="elements/233ab560.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Evaluate Proposals - Negotiate terms and conditions) 
+													</a></li>
+													<li class="tree-element"><a href="elements/56526494.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Negotiate terms and conditions - Selection) 
+													</a></li>
+													<li class="tree-element"><a href="elements/0d1df3ef.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Award Proposal - Implement Agreement) 
+													</a></li>
+													<li class="tree-element"><a href="elements/a7f89ea2.html" target="element">
+															<span class="i18n-elementtype-FlowRelationship"></span>
+														(Update Agreement - Operate Agreement) 
+													</a></li>
+													<li class="tree-element"><a href="elements/cbaa3395.html" target="element">
+															<span class="i18n-elementtype-AssignmentRelationship"></span>
+														(3rd Party - Implement Agreement) 
+													</a></li>
+													<li class="tree-element"><a href="elements/0db546c0.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Selection - Award Proposal) 
+													</a></li>
+													<li class="tree-element"><a href="elements/ac552a7a.html" target="element">
+															<span class="i18n-elementtype-TriggeringRelationship"></span>
+														(Issue RFP - Solicitation) 
+													</a></li>
+
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><span class="i18n-views"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+							<ul>
+											<li class="tree-element"><a href="views/644e050e.html" target="view"> Highlevel </a></li>
+											<li class="tree-element"><a href="views/24f58bed.html" target="view"> Data Model </a></li>
+											<li class="tree-element"><a href="views/a675293b.html" target="view"> Incident States Model </a></li>
+											<li class="tree-element"><a href="views/a1b0a18a.html" target="view"> Business Arch </a></li>
+											<li class="tree-element"><a href="views/40fc0436.html" target="view"> SmartAgreement Highlevel Process </a></li>
+											<li class="tree-element"><a href="views/2765eee3.html" target="view"> Clasical IT Financial Management </a></li>
+											<li class="tree-element"><a href="views/5b5c1214.html" target="view"> SmartAgreement Template </a></li>
+											<li class="tree-element"><a href="views/620fda00.html" target="view"> Incident use case </a></li>
+
+							</ul>
+						</li>
+					<!-- END OF STRINGTEMPLATE CODE -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- START ABOUT MODAL DIALOG -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button>
+					<h4 class="modal-title i18n-about"></h4>
+				</div>
+				<div class="modal-body">
+					<p><strong> <span class="i18n-about-pluginname"></span></strong></p>
+					<p><span class="i18n-about-pluginversion"></span></p>
+					<p><span class="i18n-about-plugintext1"></span></p>
+					<p><span class="i18n-about-plugintext2"></span></p>
+					<p><a href="http://www.archimatetool.com" target="_blank">Archi®</a> <span class="i18n-about-plugintext3"></span></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default i18n-close" data-dismiss="modal"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END ABOUT MODAL DIALOG -->
+
+	<!-- START HINT MODAL DIALOG -->
+	<div class="modal fade first-load" id="myModalHint" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button>
+						<h4 class="modal-title i18n-hint"></h4>
+				</div>
+				<div class="modal-body">
+						<iframe id="frame-hint" name="hint" onload="if($('#myModalHint').hasClass('first-load')) $('#myModalHint').removeClass('first-load'); else $('#myModalHint').modal({show:true});"></iframe>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default i18n-close" data-dismiss="modal"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END HINT MODAL DIALOG -->
+</body>
+</html>
