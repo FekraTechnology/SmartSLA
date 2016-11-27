@@ -1,0 +1,252 @@
+Business overview
+
+
+Problem	1
+Solution	2
+Intended users	3
+Vision	3
+Values	4
+Goals	4
+Objectives	4
+Business Operation Type	5
+Our unique Capabilities	6
+Revenue Channels	6
+
+
+
+
+Problem
+IT Financial Management is a set of processes to improve IT Services while Controlling costs. As services become more complex, ITFM has proven challenging. Many IT organizations a lack a clear view of their true Total Cost of Ownership (TCO) of IT Services, and how the actual Service Level achieved by the Provider are reflected in the charged services,making it s challenging keep realtime tracking of actual, detailed IT costs, vendor credits, and chargeback to business users, a high priority goal for the CIO and CFO.
+Enforcing IT Service Level Agreements (SLAs) between Managed Service Providers (MSPs) and their consumers is challenging using current industry practices and technology. IT Financial Management is currently focused, or rather limited to retroactive cost analysis, shadow charging and accounting for Providers’ periodical billing. With the managed services model, budgeting IT service expense is determined at agreement level, based on a set monthly payment, where the provider solves 20 support tickets per month or 200 tickets per month, monthly invoices remains the same. fixed payments also rarely reflect the quality of services provided, where the reviewing actual Service Level Achievements, and Service Level Reviews is only for reporting purposes and after the fact.
+Visibility and control over IT spending are critical to the IT financial manager in order to make sense of the  optimization opportunities to their IT budget. By implementing a virtual cash-based IT Financial model, IT departments become semi-financial organizations, being able to financially plan, track, and enforce budgets accordingly.
+
+
+Solution
+Using Smart Contracts technology to implement Smart Service Agreements between IT Service Providers (Internal or External/Managed) and their Services Consumers, each Service Request from the Consumer is recorded by the Smart Agreement, governed by the terms and conditions between the contracting parties, in addition to the specific SLA targets based on the Request. The Smart Agreement performs request cost based on actual Service Level Provided, including penalties to the provider if Service Level not Achieved. The Smart Agreement also performs Chargebacks to the requesting users, by paying for requested services from each users balance, using a virtual currency equal to the total value of the agreement, and allocated at the budgeting time for each user.
+
+
+Using Smart Contracts to implement Service Level Agreements between MSPs and their consumers. Each Service Request from the Consumer to the MSP is recorded by the Contract, governed by the terms and conditions of the Service Agreement, in addition to the specific SLA targets based on the Request.
+The Contract can be used to govern and settle transactions between the two parties based on real time State updates of the request, where the Consumer can only pay the provider for Service Requests fulfilled within the SLA targets, or pay per each transaction based on the exact Service Level from the Provider. This model also allows for a 3rd party to participate in the Contract as arbitrator, or conflict resolution agent, in addition to provide other value added services such as reporting, auditing, and settlement and clearance.
+
+
+Intended users
+IT financial managers, as they will have access to constant analysis, and even better, a real time view of actual spending per service and user in their organization, with the ability to implement an Instant Payment mechanism to settle and clear payments with their vendors as frequent as they please.
+
+
+Provide turnkey, software-as-a-service solution -- and managed services -- designed for the Smart Management of IT Financials, and good governance of Service Agreements with internal and external Service Providers.
+
+
+Vision
+Make IT Financial Management Smarter.
+Mission
+Provide a Platform to enable transparent, real-time IT Accounting and Charging through an Instant Payments framework. Using Smart Contracts technology to implement Smart Agreements between Service Providers and their Consumers in a Blockchain.
+Values
+Be lean, innovative, and disruptive.
+Develop and use Open Source Software, contribute to community.
+Be passionate about our vision.
+Goals
+Build a platform for a Smart Agreements Marketplace between Businesses.
+Broker services between Smart Agreements parties ensuring terms and conditions are delivered.
+Enable real time settlement and clearance between parties, and allow actual charging through Instant or traditional Payment channels
+Objectives
+Raise $500k of operating capital through series 0 funding round by Roadmap Q1
+Continue building the delivery team by end of Roadmap Q2
+Launch release 1 alpha, covering top 5 use-cases (%80 of high-level requirements at proof of concept - %20 capabilities - level) by Roadmap Q3
+Build marketing, sales and support team through Roadmap Q4
+Launch Beta, covering 1 ITSM platform, and API_v0 by Roadmap Month 14
+
+
+
+
+Business Operation Type
+As a value added services Provider, the business will act as a 3rd party, in bilateral Smart Agreements between Service Providers and Service Consumers. The revenue stream will be based on two subscription models
+Charging a flat fee per resource* covered in the Smart Agreement per month.
+Charging fractional fee (%0.1) per transaction covered in the Smart Agreements.
+*Resource is defined as a user or device requesting a service or task from the service provider
+
+
+Company structure
+
+
+
+Our unique Capabilities
+In the world of complex IT offerings, between Cloud Services, Managed Services, and Break/Fix Support Services, creating an accurate model of IT spending is not an easy task, current models rely on post facto analysis of costs, and fuzzy allocation to resources, users, and projects. Running an accurate, virtual currency based system similar to a cash based model, makes accounting and charging for services much more flexible, this is a unique offering in the market of IT Financial Management solutions space.
+
+
+Revenue Channels
+The business will provide three main offerings to Service Providers and Consumers
+Broker services between parties
+Provide Smart Agreement Templates for Providers and Consumers to use as base for their Agreements.
+The business will charge for using the templates, and their backend functionality in the smart contract per enforceable term/condition
+Register Agreements between parties in the Blockchain
+Integrate Provider’s ITSM Platform and Consumer’s ITSM Platform with our API, that enables the platforms to use the smart contract functionality
+The business will charge per integration, and a flat fee for using the API
+Value added services for agreement parties
+Provide value added services to agreement parties such as audit, arbitration, reporting, and instant payments.
+The business will charge a flat fee per service per user through the agreement active duration
+With the managed services model, budgeting for your IT service and support expense is determined at agreement level, based on a set monthly payment, Where the provider solves 5 support tickets per month or 50 support tickets per month, your monthly investment remains the same. fixed payments also rarely reflect the quality of services provided, where the reporting on Service Level Achievements, and Service Level Reviews is only for reporting purposes and after the fact, it should be based on real data, they are both are, but it should be real time, instant, and clear, just in time, organize those words.
+there is a benefit for the consumer, and the supplier, is it for both, or is it a zero sum game, where one benefit is the others loss? 
+need to compare the benefits for both parties, and 3 party
+customers to maximise the return on their IT investment
+
+
+
+
+
+
+
+
+
+For the existing break/fix client, the support they’ve been getting could still be offered, but that may be structured as a Bronze offering. The Bronze offer would not guarantee fast turnaround times and midnight heroics (while they still may happen, they are not guaranteed). See the subtle transference of risk to the customer side?  Bronze may only include 8X5 support with nights and weekends billed at 2X the normal rate.  This is fair – because nights and weekends services are the most expensive for MSPs to bear.
+Service levels should be crystal clear about the hierarchy of remediation efforts when conflicting requests come in: if Company A signs up for bronze support and customer B signs on for Silver, Company B will be getting the priority service from the MSP’s engineering team. In effect, you say to the customer, “Joe’s workload is prioritized based on service levels.  Our service desk systems will reflect those priorities when tickets are created.”
+A “Silver” level offering may be coupling Proactive Monitoring with preferred break/fix response guarantees. A “Gold” level may be Proactive Monitoring with guaranteed systems availability with no additional hourly charges to cure system faults.  Gold level transfers almost all the risk back to the MSP, but is priced accordingly at a much higher cost per month.
+Conducting serious economic based discussions with your install base will cement your status as a transparent, trusted advisor.  Differentiating service levels into Bronze, Silver, and Gold afford clients real choice on how much downtime they want to risk vs. contracting for higher value proactive monthly services. The result:  balanced risk, economic stability and a long time high value managed services partnership.
+Services are economic activities offered by one party to another, most commonly employing time-based performances to bring about desired results in recipients themselves or in objects or other assets for which purchasers have responsibility. In exchange for their money, time, and effort, service customers expect to obtain value from access to goods, labor, professional skills, facilities, networks, and systems; but they do not normally take ownership of any of the physical elements involved. LOVELOCK & WIRTZ, "Services Marketing: People, Technology, Strategy," 6/e; (Upper Saddle River NJ: Prentice Hall 2007).
+
+
+ASP bills on a "per-use" basis or on a monthly/annual fee
+Software costs for the application are spread over a number of clients
+
+
+Enterprise data centers have been, and still are, large strategic areas within organizations and require a hefty amount of funds to operate. That being said, capacity and budget planning, along with managing IT physical and human resources for organizational projects, can be quite difficult. After over two decades of experience, enterprises have learned how to better cope with their data center financial management challenges. And then the cloud came along and completely disrupted the recently conquered traditional methods.
+
+
+Nevertheless, the cloud was and continues to be accompanied by a whole new range of financial issues that need to be overcome. IT organizations need to deal with a large variety of cost models and structures that are offered by public cloud vendors. Due to the disruption that the cloud has caused in data centers, today, more than ever, MSPs and enterprises are looking to fill the position of dedicated IT financial managers. This article will discuss the responsibilities that IT financial managers hold, how they can aid an IT organization in becoming a cloud broker, and the tools that are required to support their position.
+
+
+CHALLENGES AND OPPORTUNITIES IN THE CLOUD
+In the world of data centers, running an accurate annual forecast of organizational IT needs and being able to finance purchases can be a major challenge. The on-demand nature of the cloud has changed the way IT resources can be purchased, which has brought about significant financial opportunities as well as risks. Given that cloud resources are temporary entities, you can return a resource to AWS with a single click and easily consolidate resources or stop paying for unused resources. But you can also lose control of your online data center inventory.
+
+
+IT financial managers need to be aware of the plethora of optimization options that are available and must be able to appropriately choose which ones to implement. Constant analysis, which includes knowing utilization levels and continuously looking for inefficiencies are required to get the most out of your data center. This is one of the most critical responsibilities that needs to be confronted when moving to the cloud. However, due to the cloud’s “infrastructure as code” manner, using the right approach and tools can significantly increase a cloud environment’s transparency and the respective financial manager’s effectiveness. The result is turning endless guesstimations into accurate quantitative and qualitative analyses.
+
+
+IT AS A CLOUD BROKER
+Due to self-provisioning, which is made possible by the cloud, traditional IT is confronted with “Shadow IT”. With traditional IT, the long and cumbersome process of procuring physical servers is the only option, but today, any business unit within an enterprise that requires resources, can easily make purchases from say, AWS or Azure, online, with their own allocated budget. Bypassing the internal regulations that are involved with traditional enterprise IT can make operations run quicker, but it can also have disastrous effects on cost control. Sprawling costs can creep up and ultimately shock CFOs or IT financial managers at the end of the month, showing how difficult it is for IT teams to monitor and regulate finances.
+
+
+This is where the notion of “Cloud Brokers” comes into the equation. IT financial managers need to be able to create new optimization processes in order to control each business unit’s resource utilization. Take a large brand that has business units located across the globe, for example, each one with it’s own CIO. The global IT enterprise department needs to ensure that costs are optimized and controlled for each individual unit across the board. If the opportunity arises to take on commitments such as purchasing AWS reserve instances in order to support several units, it is possible to decrease costs for each unit.
+
+
+Control and visibility are two very critical capabilities that an IT financial manager needs to possess in order to make his/her IT department a “Cloud Broker”. IT financial managers need to implement these capabilities and, as the experts, be able to find the best optimization opportunity for every unit throughout the organization. By acting as brokers, IT departments become semi-financial organizations, and in some cases, don’t deal with actual infrastructure deployment, but search for the best cloud vendors and cost models. Their expertise should involve understanding actual IT requirements and being able to financially plan, track, and enforce budgets accordingly.
+Cloud resources of all shapes and sizes are used by different departments throughout the enterprise with the itemized monthly bills reflecting the resources purchased and used. The sum of the bills from all cloud suppliers represents the total cost to the company.
+
+
+
+
+A basic level of cost allocation granularity can be achieved using the cloud providers’ native account consolidation practices. Here are two examples from the largest providers – AWS and Azure:
+
+
+
+
+AWS offers the possibility of linking accounts to a consolidated paying account. This gives us two levels of cost allocation granularity, but cannot drill down into allocation of costs under each linked account.
+1
+Similarly, Microsoft Azure users create accounts, an entity which is responsible for management of multiple Azure subscriptions. This provides the same two-level cost allocation granularity as in AWS. Enterprise Agreement (EA) customers, however, can create a 4-level cost allocation granularity in their enterprise enrollment.
+2
+3
+There is a genuine need for IT, operations, business and financial leaders to have full visibility into the distribution of these costs among the different business units and projects. Though cloud costs can easily reach six figures for a medium size enterprise, current current cost allocation methods involve a lot of guesswork.
+
+
+IT financial management is the process used to plan, control, and recover costs expended in providing individual IT services. Most organizations look at IT services in total, but when you start getting into IT financial management, you look at the individual services IT delivers to the business, such as the desktop, network, or hosting services. The role of financial management and how IT is viewed will vary within each organization. Some companies view IT as an expense center; others view it as a profit center; and some view it as a source recovery center. However, in all cases, financial management supports the business of IT because IT really is a business within the organization itself. The objective of IT financial management is to give insight into the true costs of providing IT services and the effects of business consumption on those services. It is the foundation of running IT like a business.
+When you enter a competitive market, there will be pressure to reduce costs because this will allow you to keep pricing competitive. If you don’t have visibility into those costs and don’t understand exactly what the cost of delivery is, there’s usually a tendency to come out with an across-the-board type of decision, such as reducing costs by 20 percent without getting into specific areas. But good cost cutting needs to be business-driven and based upon business needs, and IT financial management provides the needed information to do this intelligently.
+There’s no universal right amount for any organization to spend on IT. Each organization has its own right amount based upon its business strategy, level of services, and levels of consumption. Determining this amount is commonly called IT optimization. IT financial management provides the information an organization needs to determine its own right amount. Having the information needed to manage the end-to-end technology spend and the IT organization as a business is what provides a company with confidence in its IT spend. What is important is the overall cost of delivering your business, and obviously, IT is a big component of that.
+A managed services provider (MSP) is most often an information technology (IT) services provider that manages and assumes responsibility for providing a defined set of services to its clients either proactively or as the MSP (not the client) determines that services are needed.[Most MSPs bill an upfront setup or transition fee and an ongoing flat or near-fixed monthly fee, which benefits clients by providing them with predictable IT support costs. Sometimes, MSPs act as facilitators who manage and procure staffing services on behalf of the client. In such context, they use a vendor management system (VMS) for transparency and efficiency.
+end goal is to have compatible interface with something like cloudwatch, clear costing model and api to show realtime charges, then integrate with something like AribaPay to actually settle, convert IT$ to USD.
+The key words to focus on here are “easier to compare” and “lower costs.” What this means is that health insurance providers will have increased competition and will be competing in a way that is relatively new to them. In order to compete effectively, they will need to have a thorough understanding of the cost of delivering their own IT services. While everyone currently manages IT costs, the level of detail required will be relatively new for the industry, and it is important for organizations to have an understanding of their IT costs.
+"The objective of IT financial management is to give insight into the true costs of providing IT services and the effects of business consumption on those services. It is the foundation of running IT like a business."
+
+
+
+
+Managed Service Providers (MSPs)
+A Managed Service provider can deliver certified professionals that monitor your incidents and manage them through resolution.
+Most managed services are built on ITSM toolsets that provide automation.  If any customer device has an issue, an alarm is received by the monitoring tool.
+The tool compares each issue to the alarm threshold. If the issue meets alarm criteria, a ticket is automatically created in the providers ticketing system and advanced algorithms are applied to ensure efficient automation and prioritization.  The prioritization should be taken extremely seriously and each incident needs to be automatically assigned a resolution time based on priority.  Engineer’s specific to the technology of the device are automatically notified of the new Incident and are immediately able to start working the issue. 
+Outsourcing the management of your technology should be a way for CIOs to increase their service levels, andmany times, decrease their costs in the process. The key to choosing the right managed services partner is a through up-front investigation of their services and policies, and a drilling down into the way they conduct their business by knowing what questions are critical to ask.
+
+
+What does the service provider’s price model look like? 
+One of the most important questions to ask a prospective partner is whether or not their service levels are tiered. Not all technology and devices need the same level of monitoring. You want to make sure your critical systems are able to have a higher level of monitoring and management and keep non-critical systems at a lower management tier to save money.
+What do the SLAs really promise?
+Make sure the SLAs you are agreeing to exceed industry standards.  What happens if the provider misses a SLA? Look for a provider who will pay a penalty fee if they do not meet the agreed upon target resolution times.  Many companies will only strive to meet response times.  Watch out for SLAs based on response times vs. resolution times.
+There are many technologies that managed services can be applied to.  Below are some of the more common ones:
+
+
+Application Maintenance
+Back-up
+Virtual Desktop
+Help Desk
+Hosting
+Database
+Messaging
+Monitoring & Simulation
+Network
+Security
+Server/Operating System
+Storage
+
+
+Immediate and real-time payment systems are proliferating around the world, driven by demand for speed and convenience. 
+Get a monthly report on not just what the vendor did, but also on how well it met the service-level agreement. If the MSP do notcannot easily provide this, walk away as it's most likely an hourly-fee company masquerading as an MSP.
+When you meet with prospective providers, ask them for a breakout of project-based vs. agreement charges, and also ask for a list of additional project costs you can expect. The best MSPs will provide a list of fixed-fee additional services that lets you estimate the costs you will incur over the next year or two.
+MSPs love recurring monthly revenue, and you will have to sign a one- or two-year contract to get their best pricing. Make sure you understand all the details. Will you need to give 30 or 60 days' notice to get out of it? What if the number of devices in your company goes up or down--how are costs recomputed? Get each clause explained or have an attorney review the contract.
+Opt for a short-term contract when working with a new MSP. You can always extend it and get the discount pricing, but until you have vetted its technical team, don't commit.
+Real-time commerce and immediate payments have huge significance for Service Providers. The initial push for immediate payments to improve customer services — but now many of the Service Consumers are driving this change. More and more, Service Consumers are recognizing the opportunities that an immediate payments infrastructure provides, giving them greater flexibility and enabling delivery of the innovative new payment services that consumers are demanding.
+Real-time payments can benefit Service Providers and Service Consumers by offering enhanced visibility into payments, by enabling virtual cash management and by helping businesses better manage day-to-day operations by improving visibility into IT spending. 
+Service Providers and Service Consumers need to underpin the burgeoning real-time commerce environment with the ability to make secure, real-time payments anywhere in the world. One of the characteristics of this new payments environment is the multiplicity of solutions and indeed definitions. Real-time, immediate, instant, faster: the underlying principle of such payments is fairly simple, but the way they are executed in solutions differs.
+Enforcing IT Service Level Agreements (SLAs) MSPs and their consumers is challenging using current industry practices and technology. IT Financial Management is currently focused, or rather limited to retroactive cost analysis, shadow charging and accounting for Providers' periodical billing.
+Solution Abstract:
+There are typically four separate layers in real-time payment systems:
+• Product and services 
+• Scheme
+• Clearing
+• Settlement
+Clearing results in the posting of funds to the beneficiary’s account so he or she can use those funds. Clearing is completed when funds are posted. Clearing is necessary to route funds from an account at one bank to an account at another bank.
+Settlement occurs between banks, which transfer funds to bring about  nality of the payment transaction, giving the receiving institution irrevocable access to the funds. Settlement is necessary to turn the promise of payment into the actual movement of money from one bank to another. Exactly when clearing and settlement occur varies, depending on the payments system.
+Most real-time payment schemes use deferred net settlement, with settlement occurring several times a day, rather than in real time.
+
+
+
+
+Use Smart Contracts to implement Service Level Agreements between MSPs and their consumers. Each Service Request from the Consumer to the MSP is recorded by the Contract, governed by the terms and conditions of the Service Agreement, in addition to the specific SLA targets based on the Request. The Contract can be used to govern and settle transactions between the two parties based on real time State updates of the request, where the Consumer can only pay the provider for Service Requests fulfilled within the SLA targets, or pay per each transaction based on the exact Service Level from the Provider. This model also allows for 3rda parties to participate in the Contract as Arbitrators.
+
+
+for deployment:
+in its most abstract form, Smart SLAs can be implemented as a pure payment channel, side channel, in Bitcoin
+first phase is implemented in ethereum, as it’s easier to implement the business process and rules in a higher level language platform, one a solid core of functionality and use cases are implemented in a smart contract, it will be ported into an ethereum side channel, then as a bitcoin payment channel
+
+
+
+
+
+
+
+Founder
+Amgad Abdelhafez is an experienced IT Consultant specializing in IT Service Management, IT Strategy, and Enterprise Architecture. With over 15 years of experience in the Information Technology field, recently focusing in Financial Cryptography, and Blockchain Technology, with a professional career in Management Consulting, Enterprise Software development, Software Engineering, and contributing and leading Open Source Projects.
+
+
+Education
+BSc, Computer Science, MAM, Egypt 2006
+
+
+Professional Certifications
+Certified Blockchain Professional (DCC-CBP 2016)
+Certified Bitcoin Professional (C4-CBP 2016)
+Certified Project Management Professional (PMI-PMP 2016)
+ServiceNow Certified Application Developer (SN-CAD 2015)
+ServiceNow Certified Implementation Specialist (SN-CIS 2014)
+ServiceNow Certified System Administrator (SN-CSA 2014)
+Certified ITIL Intermediate CSI  (ITIL-OLA 2011) 
+Certified ITIL Intermediate CSI  (ITIL-SD 2011)
+Certified ITIL V3 (ITIL-F 2011)
+Certified ITIL V2 (ITIL-F 2008)
+
+
+Recent Course Work
+Bitcoin and Cryptocurrency Technologies, Princeton University - Coursera, 2016
+Fintech Certificate Course, MIT Future Commerce. MIT - Experiential Learning, 2016
+Cryptography 1, Stanford University - Coursera, 2016
+
+
+
+
