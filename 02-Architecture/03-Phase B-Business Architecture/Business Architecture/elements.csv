@@ -1,0 +1,151 @@
+"ID","Type","Name","Documentation"
+"6a18db2b","ArchimateModel","PayNow",""
+"1b2201ac","BusinessActor","IT Steering Group (ISG)  ","The IT Steering Group (ISG) sets the direction and strategy for IT Services. It includes members of senior management from business and IT. The IT Steering Group reviews the business and IT strategies in order to make sure that they are aligned. It also sets priorities of service development programs/ projects.
+"
+"6db30003","BusinessActor","Requester",""
+"7430b38a","BusinessActor","Service Consumer","Party 1 in Contract
+"
+"2411066d","BusinessActor","Service Owner",""
+"4685baaa","BusinessActor","Service Portfolio Manager","The Service Portfolio Manager decides on a strategy to serve customers in cooperation with the IT Steering Group, and develops the service provider's offerings and capabilities.
+"
+"75d26025","BusinessActor","Service Provider","Party 2 in Contract
+"
+"7e1dcbf0","BusinessEvent","Open new Incident",""
+"cb7c283c","BusinessFunction","Budget Allocation  ","A budget allocated by the Financial Manager to implement a Change. Budget Allocations are issued in response to Budget Requests originating from any Service Management process in conjunction with Requests for Change.
+"
+"486578b3","BusinessFunction","Clearing",""
+"1dca85ea","BusinessInterface","Service Desk",""
+"597461b6","BusinessObject","Budget Request  ","A request for a budget, typically issued from any of the Service Management processes at the same time when compiling a Request for Change. An approved Budget Request means that the required financial resources for implementing a Change are approved by Financial Management.
+
+"
+"c5f889f7","BusinessObject","Change Proposal  ","A Change Proposal describes a proposed major Change, like the introduction of a new service or a substantial change to an existing service. The purpose of Change Proposals is to communicate a proposed major Change and assess its risk, impact and feasibility before design activities begin. Change Proposals are typically created in Service Portfolio Management.
+"
+"6e424f1c","BusinessObject","Cost Data for Service Provisioning  ","The cost for providing a service, calculated by Financial Management as a basis for calculating the price a customer is expected to pay for a service.
+"
+"5fa46d99","BusinessObject","Financial Analysis  ","The Financial Analysis is an important input to the Portfolio Management process. It contains information on the costs for providing services and provides insight into the profitability of services and customers (see also: ITIL Checklist Financial Analysis).
+"
+"844d3c5c","BusinessObject","Financial Data Categories  ","Various categories are used to structure financial data, as a means to gain insight into the underlying costs of service provisioning and service profitability.
+"
+"9646d6e8","BusinessObject","Incident Ticket/Request","/*struct TaskRecord {
+  bytes32 sys_id;
+  address requester;
+  string created_on;*/
+  /*Priorities taskPriority;
+   States taskState;
+  int taskType;
+  int timeWorked;
+  address assigned_to;
+  bool active;
+  address updated_by;
+  //DateTime created_on;
+  DateTime updated_on;
+  DateTime closed_on;
+ }"
+"9404db4b","BusinessObject","Invoice  ","The invoice for the delivery of a service or product.
+"
+"fcbad65f","BusinessObject","IT Budget  ","The IT Budget is an annual financial plan that provides a forecast of expected expenditures and allocates financial resources to the various service management processes and organizational units within the IT organization.
+"
+"bbd4d740","BusinessObject","Service Charter  ","The Service Charter is a high-level description of a new or substantially changed service and the approach to build that service. In particular, the Service Charter outlines the deliverables to be created during the service implementation project, the required resources, and an initial project schedule. Service Charters are passed to Service Design to initiate the detailed design of the new or changed service. (Note: New output in ITIL 2011.)
+"
+"27669129","BusinessObject","Service Model  ","A Service Model is a high-level description of a service and the components required to deliver that service. The main purpose of Service Models is to facilitate an understanding of what service components, assets and other resources are necessary to create the service, including their interactions. Service Models are a valuable tool for understanding the impact of proposed new or changed services on other services at an early stage. (Note: New output in ITIL 2011.)
+"
+"f6856e7c","BusinessObject","Service Portfolio  ","The Service Portfolio represents a complete list of the services managed by a service provider; some of these services are visible to the customers, while others are not. It contains present contractual commitments, new service development, and ongoing service improvement plans initiated by Continual Service Improvement. It also includes third-party services which are an integral part of service offerings to customers. The Service Portfolio is divided into three phases: Service Pipeline, Service Catalogue, and Retired Services (see also: ITIL Checklist Service Portfolio).
+"
+"43327432","BusinessObject","Service Portfolio Review Report  ","A document containing the results and findings from a Service Portfolio Review. This report is an important input to the strategic service assessment.
+"
+"408c9cc2","BusinessObject","Smart Agreement Template","The Logical Model for the Smart Agreement between two parties
+This will be the base (class) for the SmAg between the contracting parties
+"
+"aaa7064f","BusinessProcess","Accounting","this process enables an IT organization to account for the way its money is spent. This particularly refers to identification of costs by customer, by service or by activity. For example, accounting will answer the question “How much does e-mail service (per mailbox) cost?” Someone who pays the bill (internal or external customer) wants to know the answer. To answer such a question, IT financial management has to know of which cost-item e-mail service is build (e.g. hardware, software, people, etc.).
+
+Accounting is a process that can be highly complex. There are some costs that are easily identifiable, but there are some costs that are usually approximated. Let’s take Service Desk resources as an example (people, technology, fixed costs). It is (usually) good enough for people working at the Service Desk to estimate time they spend on a certain service, rather than counting every minute of their activity. What I found out is that people who are paying the bills (valid for both internal as well as external customers) wants to know the structure of the costs that they are paying for. Therefore, it is crucial to have the most detailed cost structure possible for services that are billed.
+
+
+
+An efficient accounting process increases IT service provision and defines areas where cost savings can be made (i.e. financial efficiency). There are several cost elements that accounting uses:
+
+Capital Costs (or capital expenditure – CAPEX) – cost of purchasing something that will become a financial asset, e.g. server.
+Operational Costs (or operational expenditure – OPEX) – cost incurred from running the services, e.g. electricity invoices, salary… Depending on organization’s (financial) strategy, CAPEX and OPEX can be governed. Cloud services are an example. Organization can shift capital expenditure (investing in own data centre infrastructure) to operational expenditure (monthly fee for resources required) by using cloud services instead of its own.
+Direct Costs – costs that can be directly applied to a certain service or customer, e.g. purchase of a server that will be used for one particular service.
+Indirect Costs – costs that cannot be directly allocated to a particular service or customer, e.g. SW licence for server which runs several applications or serves several customers.
+Fixed Costs – costs that don’t change with IT service usage or in the short-term, e.g. annual lease contract.
+Variable Costs – costs that vary in the short-term depending how much service is used, e.g. energy consumed to run servers."
+"662f83b8","BusinessProcess","Approve new or changed Services  ","Process Objective: To submit a formal Change Proposal to Change Management, and to initiate the design stage for the new or changed service if the Change Proposal is authorized.
+"
+"7e548be9","BusinessProcess","Assigned ",""
+"840db1bf","BusinessProcess","Budgeting","this process plans income and expenditure of money for an organization. Planning is done periodically (usually once a year). Planning is important because it decreases risk of over-spending in the future. The same process controls income and costs incurred on a monthly basis. This means that monthly income and monthly costs will be monitored and compared with budgeted (i.e. planned) funds. Based on that information, measures can be taken to implement corrections that will keep the budget on track.
+
+Budgeting, as a cross-department process, usually belongs to the financial department or CFO. IT contributes for services, resources and costs. It occurs once a year and usually includes the running business year, the next year and even more. I know that it is hard to know what will happen in the next, say, two years; but, even so, budgeting for the next few years defines the strategic development of an organization."
+"ca629ab4","BusinessProcess","Canceled ",""
+"7ef131c5","BusinessProcess","Charging","is the activity whereby payment is required for services delivered. Charging requires that accounting procedures and systems exist and are set up. It makes a difference whether the organization is an internal service provider, or if it serves external customer as its main business. In the case where an IT organization is an internal service provider (according to ITIL, these are Type I and Type II organizations), it is not necessary to bill for services. Sometimes such IT organizations only allocate costs. If an IT organization sells its services to external customers (Type III organization) they will, certainly, issue bills for their services and generate income which funds that organization.
+
+Charging for services by an organization with external customers is the only way to get funding for the organization, cover costs and generate revenue. But, in the case of an internal service provider it can be seen as bureaucratic procedure, which is true. On the other side, I found that internal charging has several advantages:
+
+It justifies IT resources needed (increased transparency),
+users throughout organization use only resources they really need (optimization of usage),
+business can plan their cost of operation (which is, further on, included in price charged to their customers), and
+IT has better control of its business."
+"9578befa","BusinessProcess","Clearing","transmitting, reconciling and, in some cases, confirming transfer orders prior to settlement, potentially including the netting of orders and the establishment of final positions for settlement. Sometimes this term is also used (imprecisely) to cover settlement. For the clearing of futures and options, this term also refers to the daily balancing of profits and losses and the daily calculation of collateral requirements. "
+"1fb660b3","BusinessProcess","Closed ",""
+"e05d2a7f","BusinessProcess","Define and Analyze new or changed Services  ","Process Objective: To define the desired outcomes of a proposed new or changed service, analyze the impacts on existing services in the Service Portfolio, and determine the assets required to offer the service.
+"
+"826eb4ba","BusinessProcess","Design Agreement",""
+"60262786","BusinessProcess","Facknowledged ",""
+"f0ed961f","BusinessProcess","Financial Analysis and Reporting  ","Process Objective: To analyze the structure of service provisioning cost and the profitability of services. The resulting financial analysis allows Service Portfolio Management to make informed decisions when deciding about changes to the Service Portfolio.
+"
+"836ff324","BusinessProcess","Financial Management Support","Process Objective: To define the necessary structures for the management of financial planning data and costs, as well as for the allocation of costs to services.
+"
+"2df4d800","BusinessProcess","Financial Planning  ","Process Objective: To determine the required financial resources over the next planning period (""IT Budget""), and to allocate those resources for optimum benefits.
+"
+"5b059180","BusinessProcess","GAcknowledged ",""
+"d9f878bd","BusinessProcess","Implement Agreement",""
+"0ecbcd32","BusinessProcess","Opened ",""
+"9f8e9022","BusinessProcess","Operate Agreement",""
+"71b44618","BusinessProcess","Pending ",""
+"bc02e1bf","BusinessProcess","Requested ",""
+"c4f17f85","BusinessProcess","Resolved ",""
+"e9e88d47","BusinessProcess","Retire Agreement",""
+"68b5fe19","BusinessProcess","Service Invoicing  ","Process Objective: To issue invoices for the provision of services and transmission of the invoice to the customer.
+"
+"19e1fdfd","BusinessProcess","Service Portfolio Review  ","Process Objective: To assess the Service Portfolio at regular intervals in order to ensure the service provider offers economically viable services which are aligned with the Service Strategy. This process also keeps the Service Portfolio up to date.
+"
+"25e71bf9","BusinessProcess","Terminate Agreement",""
+"c6434aa4","BusinessProcess","Update Agreement",""
+"531870e0","BusinessProcess","Worked ",""
+"96d14f95","BusinessRole","Fulfiller",""
+"c633df8a","BusinessRole","Requester",""
+"cd9c5819","BusinessService","Bilateral netting","an arrangement whereby two parties net their bilateral obligations
+"
+"cb617a48","BusinessService","IMaaS","Incident Management as a Service"
+"d9b126b8","Contract","Service Agreement",""
+"05b27ce8","ApplicationComponent","Ancillary system","a system in which payments or securities are exchanged and/or cleared. Meanwhile,
+the ensuing monetary obligations are settled in another system, typically an RTGS system"
+"49af0e79","ApplicationComponent","Bilateral net settlement system","a settlement system in which every individual bilateral
+combination of participants settles its net settlement position on a bilateral basis."
+"88abd8d8","ApplicationComponent","Clearing system"," a set of rules and procedures whereby financial institutions present and exchange data and/or documents relating to transfers of funds or securities to other fi nancial institutions at a single location (e.g. a clearing house). These procedures often include a mechanism for calculating participants’ mutual positions, potentially on a net basis, with a view to facilitating the settlement of their obligations in a settlement system."
+"135c224c","ApplicationComponent","Deferred net settlement system","a system which settles on a net basis at the end of a predefi ned
+settlement cycle (typically at the end of – but sometimes during – the business day)."
+"9d4a7175","ApplicationComponent","RTGS system","A system where ensuing monetary obligations are settled"
+"582f21cc","DataObject","Accounting Rules",""
+"4035a755","DataObject","Conflict Resolution Rules",""
+"7c84df22","DataObject","Incident Record/Object",""
+"46670a3d","DataObject","incidents[sys_id]",""
+"bdeccf8c","DataObject","Indirect Cost Allocation Table  ","A table used to allocate indirect costs that are shared among multiple services, defining the rules how those costs are spread among the services.
+"
+"9f685f15","DataObject","Service Definition",""
+"019a1ec5","DataObject","Service Level Definition",""
+"5054a846","DataObject","Stages","{in_progress, canceled, paused, completed, breached}"
+"f43a5a75","DataObject","States","{open, assigned, in_progress, resolved, closed}"
+"d46341d1","DataObject","Terms and Conditions",""
+"ed1108ee","DataObject","Users",""
+"2debd40b","Artifact","current state",""
+"9a5ff4b7","Artifact","Incident instance",""
+"1ac4b359","Artifact","latest change",""
+"276c162e","Artifact","opened_at","DateTime
+"
+"84b7368f","Artifact","opened_by","Address
+"
+"b4ee3376","Artifact","state","Address
+"
+"e9ec9136","Artifact","state changes","array of all state changes with timestamps
+map[DateTime => States] stateChanges; ??"

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="PayNow" id="6a18db2b" version="3.1.1">
+  <folder name="Business" id="7b608ab1" type="business">
+    <element xsi:type="archimate:BusinessActor" id="75d26025" name="Service Provider">
+      <documentation>Party 2 in Contract
+</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" id="7430b38a" name="Service Consumer">
+      <documentation>Party 1 in Contract
+</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" id="c633df8a" name="Requester"/>
+    <element xsi:type="archimate:BusinessRole" id="96d14f95" name="Fulfiller"/>
+    <element xsi:type="archimate:BusinessCollaboration" id="12ed38a5" name="Business Collaboration"/>
+    <element xsi:type="archimate:Contract" id="d9b126b8" name="Service Agreement"/>
+    <element xsi:type="archimate:BusinessInterface" id="1dca85ea" name="Service Desk"/>
+    <element xsi:type="archimate:BusinessEvent" id="04eff9da" name="Business Event"/>
+    <element xsi:type="archimate:BusinessProcess" id="3a819648" name="Business Process"/>
+    <element xsi:type="archimate:BusinessObject" id="c0bb1c73" name="Business Object"/>
+    <element xsi:type="archimate:BusinessService" id="cb617a48" name="IMaaS">
+      <documentation>Incident Management as a Service</documentation>
+    </element>
+  </folder>
+  <folder name="Application" id="cbb6025b" type="application"/>
+  <folder name="Technology" id="8b588329" type="technology"/>
+  <folder name="Motivation" id="2dfbc263" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="2c185523" type="implementation_migration"/>
+  <folder name="Connectors" id="2e579412" type="connectors"/>
+  <folder name="Relations" id="2047ba95" type="relations"/>
+  <folder name="Views" id="0707319d" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="644e050e" name="Default View">
+      <child xsi:type="archimate:DiagramObject" id="ab366c26" textAlignment="2" archimateElement="75d26025">
+        <bounds x="516" y="42" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="df431a75" textAlignment="2" archimateElement="7430b38a">
+        <bounds x="24" y="42" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a6305de5" textAlignment="2" archimateElement="c633df8a">
+        <bounds x="24" y="138" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="cadcb10a" textAlignment="2" archimateElement="96d14f95">
+        <bounds x="516" y="138" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9bd091f9" textAlignment="2" archimateElement="d9b126b8">
+        <bounds x="240" y="24" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5ecb6915" textAlignment="2" archimateElement="1dca85ea">
+        <bounds x="240" y="168" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c409ac7c" textAlignment="2" archimateElement="04eff9da">
+        <bounds x="24" y="234" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a0b683a4" textAlignment="2" archimateElement="3a819648">
+        <bounds x="264" y="306" width="313" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="edf52119" textAlignment="2" archimateElement="c0bb1c73">
+        <bounds x="48" y="306" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="76b973ca" textAlignment="2" archimateElement="cb617a48">
+        <bounds x="240" y="96" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
