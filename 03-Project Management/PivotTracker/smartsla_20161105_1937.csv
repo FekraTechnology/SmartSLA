@@ -1,0 +1,74 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Comment,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status
+3113245,Architecture work,architecture work,,,,epic,,,"Oct 31, 2016",,,,all architecture related tasks,https://www.pivotaltracker.com/epic/show/3113245,,,,,,,,,,,,,,,,,,
+3113243,Infrastructure setup,infrastructure setup,,,,epic,,,"Oct 31, 2016",,,,All infrastructure related tasks,https://www.pivotaltracker.com/epic/show/3113243,,,,,,,,,,,,,,,,,,
+3113241,Project management,project management,,,,epic,,,"Oct 31, 2016",,,,,https://www.pivotaltracker.com/epic/show/3113241,,"project planning, roadmap, govenrance (Fekra Technology Consulting FCSAG01 - Oct 31, 2016)",,,,,,,,,,,,,,,,
+3113039,Setup and integrate ServiceNow demo instances for req and ful,setup and integrate servicenow demo instances for req and ful,,,,epic,,,"Oct 31, 2016",,,,Setup and integrate ServiceNow demo instances for requestor and fulfiller,https://www.pivotaltracker.com/epic/show/3113039,,,,,,,,,,,,,,,,,,
+3112919,SN-ETH Integration,sn-eth integration,,,,epic,,,"Oct 31, 2016",,,,Integrating ServiceNow platform with Ethereum network,https://www.pivotaltracker.com/epic/show/3112919,,,,,,,,,,,,,,,,,,
+3112917,Costing Model,costing model,,,,epic,,,"Oct 31, 2016",,,,ServiceNow Costing model that defines the payments rules,https://www.pivotaltracker.com/epic/show/3112917,,,,,,,,,,,,,,,,,,
+3112915,ServiceNow Development,servicenow development,,,,epic,,,"Oct 31, 2016",,,,SN application that interfaces with the Smart Contract in the blockchain,https://www.pivotaltracker.com/epic/show/3112915,,,,,,,,,,,,,,,,,,
+3112909,Smart Contract development,smart contract development,,,,epic,,,"Oct 31, 2016",,,,solidity smart contract to handle events and clear transactions,https://www.pivotaltracker.com/epic/show/3112909,,,,,,,,,,,,,,,,,,
+3112285,Accounts Management,wallet,,,,epic,,,"Oct 30, 2016",,,,"account, addresses, keys, and wallets in servicenow
+",https://www.pivotaltracker.com/epic/show/3112285,,,,,,,,,,,,,,,,,,
+133560551,Architecture Vision,"",1,"Oct 31, 2016","Nov 6, 2016",feature,3,started,"Nov 1, 2016",,,Fekra Technology Consulting FCSAG01,"Organizational Model for Enterprise Architecture (see Part IV, 36.2.16 Organizational Model for Enterprise Architecture), including:
+Scope of organizations impacted
+Maturity assessment, gaps, and resolution approach
+Roles and responsibilities for architecture team(s)
+Constraints on architecture work
+Re-use requirements
+Budget requirements
+Requests for change
+Governance and support strategy
+Tailored Architecture Framework (see Part IV, 36.2.21 Tailored Architecture Framework), including:
+Tailored architecture method
+Tailored architecture content (deliverables and artifacts)
+Architecture principles (see Part IV, 36.2.4 Architecture Principles), including business principles, when pre-existing
+Configured and deployed tools
+Populated Architecture Repository (see Part IV, 36.2.5 Architecture Repository) - existing architectural documentation (framework description, architectural descriptions, baseline descriptions, ABBs, etc.)",https://www.pivotaltracker.com/story/show/133560551,Fekra Technology Consulting FCSAG01
+133566097,create new incident in the contract state,smart contract development,1,"Oct 31, 2016","Nov 6, 2016",feature,3,started,"Nov 1, 2016",,,Fekra Technology Consulting FCSAG01,"create a map of incidents in the contract
+a function that should create a new incident ",https://www.pivotaltracker.com/story/show/133566097,Fekra Technology Consulting FCSAG01,,it should have a data structure based on specs,completed,it should create a new incident,completed,it should update incident ,not completed,it should read incident,not completed,it should delete incident ,not completed
+133485023,Use Service Commitments,"",,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,"Service Offerings define different levels of service for an existing business service and Service Commitments define the services that are included with the service offering. For example, an organization may offer two levels of desktop support: a Standard offering provides commitments of upgrades and virus protection, and an Executive offering provides the standard commitments plus an availability guarantee of 98% from 8-5 on weekdays. Service Level Agreements (SLAs) allow the service desk to track whether they provide a level of service in a defined amount of time.
+
+Service Portfolio Management - SLA Commitments allow commitments to be defined by an SLA, so that staff can track how efficiently the service desk meets commitments for a service offering.",https://www.pivotaltracker.com/story/show/133485023,
+133483137,use metric instance,"",,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,"Metric definition: the metric definition for which this metric instance was gathered.
+Value: For a ""Field value duration"" metric this is the value of the table field for which duration is calculated. For example, for the ""Assigned to Duration"" metric, the Value is the name of the person assigned to the incident. For other metrics, the value can be any value calculated by the metric.
+ID: Identifies the specific record for which the metric is gathered. For example, the specific incident.
+Duration: Time duration for a Field value duration metric.
+",https://www.pivotaltracker.com/story/show/133483137,
+133408385,groups' wallets,"balance, group, smart contract development, wallet",,,,feature,2,unscheduled,"Oct 30, 2016",,,Fekra Technology Consulting FCSAG01,"as a group manager, i want to have a wallet associated to my group, only i have it's private key, all the user that report to me, or part of this group, their wallets will be derived from this groups wallet (HD keys)",https://www.pivotaltracker.com/story/show/133408385,,,research HD addresses in etherum,not completed,create wallet/account table in SN,not completed
+133408335,users' wallets,"balance, smart contract development, user, wallet",,,,feature,3,unscheduled,"Oct 30, 2016",,,Fekra Technology Consulting FCSAG01,"as a user, i want to have a wallet (account address and private key) associated with my ServiceNow account, I want to see my available balance",https://www.pivotaltracker.com/story/show/133408335,
+133408311,incident price,"costing model, creation, pricing, smart contract development, ui",,,,feature,3,unscheduled,"Oct 30, 2016",,,Fekra Technology Consulting FCSAG01,"as a user, i want to see an estimated price for incident when i create it, updates based on priority, calculated based on costing structure",https://www.pivotaltracker.com/story/show/133408311,,"After 33% of the SLA's duration, alert the user assigned to responding to the task.
+After 66% of the SLA's duration, notify the assignee's manager.
+After 100% of the SLA's duration, notify the Customer Care representative that the SLA has been breached.
+ (Fekra Technology Consulting FCSAG01 - Oct 31, 2016)",lookup costing in servicenow,not completed,create ui policy that gets updated when priority changes,not completed,create new field in inc table for price,not completed
+133409707,task sla workflow script action,servicenow development,,,,feature,,unscheduled,"Oct 30, 2016",,,Fekra Technology Consulting FCSAG01,call functions in the contract in those scripts,https://www.pivotaltracker.com/story/show/133409707,
+133441911,PayNow option,servicenow development,,,,feature,3,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,"as a user, i want to see an option in each new incident to PayNow, if selected:
+My balance is populated in the screen, and my spending limit is displayed
+when i select a priority, i see the estimated price 
+when the SLA updates, payments get processed
+at the expected end time, final clearance
+ ",https://www.pivotaltracker.com/story/show/133441911,
+133483089,SLA durations types,"costing model, t&c",,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,"User specified duration
+Specifies a static duration period, such as 8 hours, often in conjunction with a business schedule.
+Relative duration
+Specifies a duration relative to the start time of the task SLA and is defined using a script. For example, you can select a relative duration such as End of next business day or Next business day by 4pm.",https://www.pivotaltracker.com/story/show/133483089,
+133482641,usecases,servicenow development,,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,"What does it do to my SLA when my overachiever colleague updates a ticket in the middle of the night and puts it into a pause state, then comes back in the middle of the day to take it out of the pause?
+What if my vendor in India responds to my request in the middle of my night, taking the incident out of Pending Vendor state?
+Will my SLA start counting again immediately, although I am fast asleep?
+What if I enter a pause time outside my schedule, and exit it inside, or vice versa.
+How is it calculated if my pause times are completely out of the schedule?",https://www.pivotaltracker.com/story/show/133482641,
+133481737,use workflow stages to settle payments based on SLA/workflow stage,"",,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,"You can use stage sets to organize stages as a cohesive, named unit for reuse in any number of workflows. A stage set, which groups commonly used stages together, usually represents a process, such as the stages required to display the progress of a service catalog request. You can also assign a stage set as the default set for workflows on specific tables.
+
+In an active context, workflow stages provide summary-level feedback about the progress of a workflow. Stage icons display the status of each activity as it is being driven by a workflow. The system updates a Stage field, defined in the workflow properties, to indicate the workflow's progress through the possible stage values.",https://www.pivotaltracker.com/story/show/133481737,
+133475599,dev instance with all ethereum dev tools installed,"",,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,setup a dev instance on a cloud machine with all required ,https://www.pivotaltracker.com/story/show/133475599,
+133448657,Private Ethereum test network,infrastructure setup,,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,setup test/demo network on blockchain,https://www.pivotaltracker.com/story/show/133448657,
+133448411,incident modules integration,setup and integrate servicenow demo instances for req and ful,,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,simple bi-directional integration between two SN instances based of the incident table,https://www.pivotaltracker.com/story/show/133448411,
+133448341,Port web3 js library in ServiceNow,sn-eth integration,,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,"Port web3 to SN, if not gonna use pure web services ",https://www.pivotaltracker.com/story/show/133448341,
+133448159,Architecture artifacts,architecture work,,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,Required Architecture artifacts according to TOGAF ,https://www.pivotaltracker.com/story/show/133448159,,,Arch Vision,not completed,Business Arch,not completed,App Arch,not completed,Tech Arch,not completed,Migration planning,not completed,"Implementation
+planning",not completed,Opps & Solutions,not completed,Change management,not completed
+133448113,Project Plan,project management,,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,,https://www.pivotaltracker.com/story/show/133448113,
+133448107,Project Charter,project management,,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,,https://www.pivotaltracker.com/story/show/133448107,
+133438529,Custom SLA workflow that fires and process payment events,"servicenow development, sla",,,,feature,,unscheduled,"Oct 31, 2016",,,Fekra Technology Consulting FCSAG01,create a custom SLA workflow for PayNow tickets,https://www.pivotaltracker.com/story/show/133438529,
+133409667,helper function that translates time to blocks based on block time in eth,smart contract development,,,,feature,,unscheduled,"Oct 30, 2016",,,Fekra Technology Consulting FCSAG01,,https://www.pivotaltracker.com/story/show/133409667,
+133409485,"when SLA stops, pay if it was achieved, don't pay or do something if it was breached",servicenow development,,,,feature,,unscheduled,"Oct 30, 2016",,,Fekra Technology Consulting FCSAG01,SLA stops timing and determines whether the SLA was Achieved or Breached.,https://www.pivotaltracker.com/story/show/133409485,,,https://community.servicenow.com/community/it-service-management/blog/2015/01/07/understanding-my-slas-part-ii--the-difference-between-actual-and-business-elapsed-times,not completed
+133409363,pay for request task fulfillment based on OLA,servicenow development,,,,feature,,unscheduled,"Oct 30, 2016",,,Fekra Technology Consulting FCSAG01,,https://www.pivotaltracker.com/story/show/133409363,
+133409315,SLA events,"payments, servicenow development, sla",,,,feature,,unscheduled,"Oct 30, 2016",,,Fekra Technology Consulting FCSAG01,"in the contract, clear payments based on sla status changes, started, paused or breached",https://www.pivotaltracker.com/story/show/133409315,,,"if SLA start condition met, sla is active, listen to sla notifications/events, and make transactions on the default 3 events",not completed
