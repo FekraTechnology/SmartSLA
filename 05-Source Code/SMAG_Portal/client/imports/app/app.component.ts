@@ -15,5 +15,6 @@ export class AppComponent {
 
   constructor() {
     this.parties = Parties.find({}).zone();
+    //older stuff
   }
 }
