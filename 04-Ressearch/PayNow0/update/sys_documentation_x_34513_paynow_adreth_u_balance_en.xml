@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_balance" label="Balance" language="en" table="x_34513_paynow_adreth">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_balance</element>
+            <help/>
+            <hint/>
+            <label>Balance</label>
+            <language>en</language>
+            <name>x_34513_paynow_adreth</name>
+            <plural>Balances</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>amgad</sys_created_by>
+            <sys_created_on>2016-11-09 18:05:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ec391f60db8f2200d38cd170cf961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Balance</sys_name>
+            <sys_package display_value="PayNow" source="x_34513_paynow">0b9bf7a5db3a2200d38cd170cf96191e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PayNow">0b9bf7a5db3a2200d38cd170cf96191e</sys_scope>
+            <sys_update_name>sys_documentation_x_34513_paynow_adreth_u_balance_en</sys_update_name>
+            <sys_updated_by>amgad</sys_updated_by>
+            <sys_updated_on>2016-11-09 18:05:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

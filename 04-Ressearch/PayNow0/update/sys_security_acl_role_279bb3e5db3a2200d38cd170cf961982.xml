@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>amgad</sys_created_by>
+        <sys_created_on>2016-10-31 12:54:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>279bb3e5db3a2200d38cd170cf961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_34513_paynow_adreth.x_34513_paynow.user</sys_name>
+        <sys_package display_value="PayNow" source="x_34513_paynow">0b9bf7a5db3a2200d38cd170cf96191e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PayNow">0b9bf7a5db3a2200d38cd170cf96191e</sys_scope>
+        <sys_security_acl display_value="x_34513_paynow_adreth">6b9bb3e5db3a2200d38cd170cf961981</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_279bb3e5db3a2200d38cd170cf961982</sys_update_name>
+        <sys_updated_by>amgad</sys_updated_by>
+        <sys_updated_on>2016-10-31 12:54:26</sys_updated_on>
+        <sys_user_role display_value="x_34513_paynow.user" name="x_34513_paynow.user">179bb3e5db3a2200d38cd170cf96197a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

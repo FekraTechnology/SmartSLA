@@ -1,0 +1,22 @@
+<head>
+  <title>MdApp</title>
+</head>
+
+<body>
+  <h1>Welcome to EtherVote!</h1>
+
+  {{> contract}}
+  {{> contract_info}}
+
+</body>
+
+<template name="contract">
+  <p>Contract {{address}} loaded</p>
+  <button>Get contract information</button>
+
+</template>
+
+<template name="contract_info">
+  <h2>Contract information</h2>
+
+</template>
