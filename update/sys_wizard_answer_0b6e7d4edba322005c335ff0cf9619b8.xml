@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>ITDollars Table</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>ITDollars Table</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">5b667a73db1322005c335ff0cf961980</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>fcsag01</sys_created_by>
+        <sys_created_on>2016-12-08 23:51:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0b6e7d4edba322005c335ff0cf9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITDollars Table</sys_name>
+        <sys_package display_value="ITDollars" source="x_83654_itdollars">f26e3dcadba322005c335ff0cf9619cc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ITDollars">f26e3dcadba322005c335ff0cf9619cc</sys_scope>
+        <sys_update_name>sys_wizard_answer_0b6e7d4edba322005c335ff0cf9619b8</sys_update_name>
+        <sys_updated_by>fcsag01</sys_updated_by>
+        <sys_updated_on>2016-12-08 23:51:30</sys_updated_on>
+        <table/>
+        <target_url>x_83654_itdollars_table.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

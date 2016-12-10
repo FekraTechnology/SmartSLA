@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Itdollars Table" language="en" table="x_83654_itdollars_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Itdollars Table</label>
+            <language>en</language>
+            <name>x_83654_itdollars_table</name>
+            <plural>Itdollars Tables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fcsag01</sys_created_by>
+            <sys_created_on>2016-12-08 23:51:30</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>976e7d4edba322005c335ff0cf9619ba</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Itdollars Table</sys_name>
+            <sys_package display_value="ITDollars" source="x_83654_itdollars">f26e3dcadba322005c335ff0cf9619cc</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ITDollars">f26e3dcadba322005c335ff0cf9619cc</sys_scope>
+            <sys_update_name>sys_documentation_x_83654_itdollars_table__en</sys_update_name>
+            <sys_updated_by>fcsag01</sys_updated_by>
+            <sys_updated_on>2016-12-08 23:51:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

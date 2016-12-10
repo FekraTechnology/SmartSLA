@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_83654_itdollars.ITD_UIS</name>
+        <script><![CDATA[document.writeln("<script src='https://raw.githubusercontent.com/MikeMcl/bignumber.js/master/bignumber.js'></script><script src='https://raw.githubusercontent.com/ethereum/web3.js/develop/dist/web3.js'></script>
+<script type='text/javascript'>
+   
+    var Web3 = require('web3');
+    var web3 = new Web3();
+    web3.setProvider(new web3.providers.HttpProvider());
+    function watchBalance() {
+        var coinbase = web3.eth.coinbase;
+        var originalBalance = web3.eth.getBalance(coinbase).toNumber();
+        document.getElementById('coinbase').innerText = 'coinbase: ' + coinbase;
+        document.getElementById('original').innerText = ' original balance: ' + originalBalance + '    watching...';
+        web3.eth.filter('latest').watch(function() {
+            var currentBalance = web3.eth.getBalance(coinbase).toNumber();
+            document.getElementById("current").innerText = 'current: ' + currentBalance;
+            document.getElementById("diff").innerText = 'diff:    ' + (currentBalance - originalBalance);
+        });
+    }
+</script>");
+]]></script>
+        <script_name>ITD_UIS</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>fcsag01</sys_created_by>
+        <sys_created_on>2016-12-08 23:53:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>909efd4edba322005c335ff0cf96190e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_83654_itdollars.ITD_UIS</sys_name>
+        <sys_package display_value="ITDollars" source="x_83654_itdollars">f26e3dcadba322005c335ff0cf9619cc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ITDollars">f26e3dcadba322005c335ff0cf9619cc</sys_scope>
+        <sys_update_name>sys_ui_script_909efd4edba322005c335ff0cf96190e</sys_update_name>
+        <sys_updated_by>fcsag01</sys_updated_by>
+        <sys_updated_on>2016-12-09 00:34:04</sys_updated_on>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

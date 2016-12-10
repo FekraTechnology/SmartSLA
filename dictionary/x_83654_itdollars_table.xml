@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Itdollars Table" max_length="40" name="x_83654_itdollars_table" type="collection"/>
+</database>
