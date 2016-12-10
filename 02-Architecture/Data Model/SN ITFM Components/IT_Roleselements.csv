@@ -1,0 +1,35 @@
+ID,Type,Name,Documentation
+,ApplicationComponent,SNITFM_Getting Started,Access the documentation to help you get started with the application.
+,ApplicationComponent,SNITFM_Workbench,"Open the workbench, which is a user-friendly interface that you can use to manage expense data in the general ledger, set up the cost model, and perform allocations."
+,ApplicationComponent,SNITFM_Overviews,Overviews
+,ApplicationComponent,SNITFM_Financial Overview,View reports that show costs per fiscal period for each segment in the IT chart of accounts.
+,ApplicationComponent,SNITFM_Account Overview,View reports that show allocations for the accounts in all segments.
+,ApplicationComponent,SNITFM_Business Service Overview,View reports that show allocations for business services.
+,ApplicationComponent,SNITFM_Business Unit Overview,View reports that show allocations for business units.
+,ApplicationComponent,SNITFM_Dashboards,Dashboards
+,ApplicationComponent,SNITFM_Financial Dashboard,View the main financial management dashboard that shows allocations for selected segments.
+,ApplicationComponent,SNITFM_Trending Dashboard,View reports that shows allocation data for each segment over time.
+,ApplicationComponent,SNITFM_CIO Dashboard,"View a report that gives CIOs a quick summary of finances operations, and projects."
+,ApplicationComponent,SNITFM_General Ledger,General Ledger
+,ApplicationComponent,SNITFM_Staged Expenses,Access the list of the expenses that you imported into the application.
+,ApplicationComponent,SNITFM_Cleansed Expenses,Access the expenses that you already cleansed in the workbench.
+,ApplicationComponent,SNITFM_Groomed Expenses,"Access the expenses that are already groomed, assigned to buckets, and ready for allocation."
+,ApplicationComponent,SNITFM_Chart of Accounts,Chart of Accounts
+,ApplicationComponent,SNITFM_IT Chart of Accounts,Access the definitions that specify the segments used by your cost allocation method.
+,ApplicationComponent,SNITFM_Segment Hierarchy,Access the records that control the hierarchy of segments in the IT chart of accounts.
+,ApplicationComponent,SNITFM_Business Units,"Access the business units that are associated with companies. By default, the business unit is the first segment in the IT chart of accounts."
+,ApplicationComponent,SNITFM_IT Shared Services,Access the services that are shared across your IT infrastructure.
+,ApplicationComponent,SNITFM_Cost Model,Cost Model
+,ApplicationComponent,SNITFM_Grooming Conditions,Access advanced query conditions that the workbench uses during the Bucketing stage.
+,ApplicationComponent,SNITFM_Account Buckets,Access the buckets that you can use in the workbench to group expenses.
+,ApplicationComponent,SNITFM_Allocation Rules,Access all cost allocation rules used to allocate expenses.
+,ApplicationComponent,SNITFM_Filter Conditions,Access records that allocations rules use to filter the expenses that can match allocation rules.
+,ApplicationComponent,SNITFM_Allocation Metrics,Access the metrics that rules and methods use to allocate expenses.
+,ApplicationComponent,SNITFM_Create Weighted Metric,Create a new weighted metric.
+,ApplicationComponent,SNITFM_Allocation Methods,Access the methods that cost allocation rules use to allocate expenses.
+,ApplicationComponent,SNITFM_Allocation Groups,Access the groups you can use to classify allocations.
+,ApplicationComponent,SNITFM_Allocation Lines,Access the expense lines that have been allocated from expenses in the general ledger.
+,ApplicationComponent,SNITFM_IT Data Mart,IT Data Mart
+,ApplicationComponent,SNITFM_Facts,Opens a list of fact definitions.
+,ApplicationComponent,SNITFM_Dimensions,Opens a list of dimension table definitions.
+,ApplicationComponent,SNITFM_Last Run,Opens the records showing the most recent time that the application created dimension tables.

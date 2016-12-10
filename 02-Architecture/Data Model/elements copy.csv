@@ -1,0 +1,25 @@
+ID,Type,Name,Documentation
+,DataObject,Actual Patterns,is input for
+,DataObject,Availability Plan,is input for
+,DataObject,Business impact analysis,has as output
+,DataObject,Capacity Plan,is input for
+,DataObject,Charging Models,has as output
+,DataObject,Charging Models,is input for
+,DataObject,CMDB,is input for
+,DataObject,Configuration Item,is input for
+,DataObject,Core Service,is input for
+,DataObject,Cost Data,has as output
+,DataObject,Cost of Non-Availability,is input for
+,DataObject,Financial information,has as output
+,DataObject,IT Budget,has as output
+,DataObject,IT Service Continuity Plan,is input for
+,DataObject,Policies,is input for
+,DataObject,Provisioning Value,has as output
+,DataObject,Reports on investment,is input for
+,DataObject,Service Catalogue,is input for
+,DataObject,Service investment analysis,has as output
+,DataObject,Service Provisioning Cost Assessment,has as output
+,DataObject,SLA,is input for
+,DataObject,Strategic requirements for new services,is input for
+,DataObject,Supplier Contract,is input for
+,DataObject,Value proposition,has as output

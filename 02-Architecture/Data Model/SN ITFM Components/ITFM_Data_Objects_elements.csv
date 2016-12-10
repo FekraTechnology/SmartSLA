@@ -1,0 +1,53 @@
+ID,Type,Name,Documentation
+,DataObject,SNITFM_Account Code Expense [itfm_gl_actuals],Aggregation of expenses grouped by Account Code.
+,DataObject,SNITFM_Bucket [itfm_bucket],Buckets used in the allocation workbench to group similar expenses.
+,DataObject,SNITFM_Bucket Allocation Account [itfm_bucket_allocation_account],"A reference link between buckets, accounts, and cost models."
+,DataObject,SNITFM_Bucket Allocation Rule [itfm_bucket_allocation_rule],Allocates expenses to buckets.
+,DataObject,SNITFM_Budget [itfm_budget],Final budgets.
+,DataObject,SNITFM_Budget Asset Depreciation [itfm_bi_asset],Budget items of type Asset Depreciation.
+,DataObject,SNITFM_Budget Contract [itfm_bi_contract],Budget items of type Contract.
+,DataObject,SNITFM_Budget External Labor [ itfm_bi_external_labor],Budget items of type External Labor.
+,DataObject,SNITFM_Budget Forecast [itfm_budget_forecast],All budget forecasts.
+,DataObject,SNITFM_Budget Forecast Breakdown [itfm_bf_breakdown],Breakdowns of budget costs for a given budget item on the budget forecast.
+,DataObject,SNITFM_Budget Forecast Items [itfm_bf_item],All items on the budget forecast.
+,DataObject,SNITFM_Budget Hardware [itfm_bi_hardware],Budget items of type Hardware.
+,DataObject,SNITFM_Budget Item [itfm_budget_item],All budget items.
+,DataObject,SNITFM_Budget Item Breakdown [itfm_bi_breakdown],Breakdowns of budget costs for a given budget item.
+,DataObject,SNITFM_Budget Key [itfm_budget_key],The key used to identify budget forecasts and budget plans
+,DataObject,SNITFM_Budget Key Owner [itfm_budget_key_owner],Owners of budget keys.
+,DataObject,SNITFM_Budget Labor [itfm_bi_labor],Budget labor records for budget plans.
+,DataObject,SNITFM_Budget Notes [itfm_budget_note],Notes for budgets that you enter in the budget variance report.
+,DataObject,SNITFM_Budget Override Categories [itfm_budget_override_categories],Categories that you use to classify budget overrides.
+,DataObject,SNITFM_Budget Owner [itfm_budget_owner],Owners of budgets.
+,DataObject,SNITFM_Budget Plan [itfm_budget_plan],All budget plans.
+,DataObject,SNITFM_Budget Reference Rate Configuration [itfm_fx_config],Exchange rate / fiscal period relationships.
+,DataObject,SNITFM_Budget Reference Rates [itfm_fx_rate],The exchange rates that budgets use.
+,DataObject,SNITFM_Budget Segment Map [itfm_budget_segment_map],A relationship between segments that budgets use and a budget key.
+,DataObject,SNITFM_Budget Software [itfm_bi_software],Budget items of type Software.
+,DataObject,SNITFM_Budget Targets [itfm_budget_target],All budget target values.
+,DataObject,SNITFM_Business Unit [business_unit],All business units.
+,DataObject,SNITFM_Cleansing Condition [itfm_cleansing_condition],Conditions that the application automatically generates when you clean data in the workbench.
+,DataObject,SNITFM_Cost Allocation [itfm_allocation],All allocation lines that are processed from allocations. This table holds a more detailed level of allocation lines as compared to the Cost Allocation Aggregate table.
+,DataObject,SNITFM_Cost Allocation Group [itfm_cost_allocation_group],Groups that can be associated with allocations.
+,DataObject,SNITFM_Cost Allocation Metric [itfm_cost_allocation_metric],Metrics that weighted and custom allocation methods use.
+,DataObject,SNITFM_Cost Allocation Aggregate [itfm_allocation_aggregate],A more brief set of allocation line data than is saved in the Cost Allocation [itfm_allocation] table.
+,DataObject,SNITFM_Cost Allocation Rollup [itfm_rollup],Rollups that the application creates when you use the workbench.
+,DataObject,SNITFM_Cost Allocation Rollup Override [itfm_rollup_override],Values that you can use to override allocation rollups.
+,DataObject,SNITFM_Cost Allocation Runs Log [itfm_ca_run_log],A log of all allocations that have been run.
+,DataObject,SNITFM_Cost Allocation Segment Map [itfm_ca_segment_map],Segments specified in the hierarchy of segments.
+,DataObject,SNITFM_Financial Data Source [itfm_data_source],The source of the financial data: the staged general ledger or the cost plan breakdown.
+,DataObject,SNITFM_Financial Model [itfm_cost_model],Financial cost models and budget models.
+,DataObject,SNITFM_FM Report [itfm_report],Finance reports.
+,DataObject,SNITFM_General Ledger Accounts,Accounts and associated account numbers.
+,DataObject,SNITFM_General Ledger Cleansed Data [itfm_gl_data_cleansed],Expenses in the general ledger that is cleansed.
+,DataObject,SNITFM_General Ledger Log [itfm_gl_log],Log records that are created when expenses are added to the general ledger for a fiscal period.
+,DataObject,SNITFM_General Ledger Staged Data [itfm_gl_data_staged],Imported expenses that have not been cleansed or groomed.
+,DataObject,SNITFM_Groomed General Ledger Data [itfm_gl_data_groomed],Expenses in the general ledger that have been groomed.
+,DataObject,SNITFM_Grooming Condition [itfm_grooming_condition],Conditions that the application creates during the financial grooming process in the workbench.
+,DataObject,SNITFM_IT Shared Service [itfm_shared_service],Services shared across the IT infrastructure.
+,DataObject,SNITFM_IT Shared Service Type [itfm_shared_service_type],Categories that are associated with IT shared services.
+,DataObject,SNITFM_ITFM Session [itfm_session],Saves session information for the workbench.
+,DataObject,SNITFM_Main Report Configuration [itfm_ca_main_config],Configuration settings for the main Financial Management report.
+,DataObject,SNITFM_Segment Definition [itfmCasegment_map],
+,DataObject,SNITFM_Segment Relationship [itfm_itcoa_hierarchy],Relationships between segments in the segment hierarchy as defined in the Data Definition stage of the workbench. Also captures the segment hierarchy for budget models.
+,DataObject,SNITFM_Weight Maps [itfm_weight_map],Weight relationships that the application uses to calculate weighted metrics.

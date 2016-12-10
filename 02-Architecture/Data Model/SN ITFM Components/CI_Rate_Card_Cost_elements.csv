@@ -1,0 +1,20 @@
+ID,Type,Name,Documentation
+,DataObject,,
+,DataObject,DM_01_Number,[Read-only] The rate card cost identification number. Automatically assigned.
+,DataObject,DM_01_Rate card,The identification number of the rate card to which this rate card cost is associated.
+,DataObject,DM_01_Name,The rate card cost name.
+,DataObject,DM_01_Active,Check box that indicates whether to enable cost processing for this cost.
+,DataObject,DM_01_Short description,A brief description of the rate card cost. The description is used to identify the processed cost on an expense line record.
+,DataObject,DM_01_Start date,The date the cost should start being processed.
+,DataObject,DM_01_End date,The date the cost should stop being processed.
+,DataObject,DM_01_Interval,The frequency at which the rate card cost recurs.
+,DataObject,DM_01_Recurring,"Check box that indicates whether the cost is a repeating cost. Also sets generated expense lines to show as recurring. If this check box is cleared, no further expenses are generated automatically."
+,DataObject,DM_01_Sales tax,Check box that indicates whether to apply sales tax to the cost. (This field is available in Calgary and later releases.)
+,DataObject,DM_01_Tax rate,The tax rate to apply to the cost.
+,DataObject,DM_01_Order,Used by task rate cards.
+,DataObject,DM_01_Last processed,[Read-only] The date and time this cost was last processed.
+,DataObject,DM_01_Next process,The next date on which new expenses will be processed based on the Process FM Costs scheduled job.
+,DataObject,DM_01_Base cost,The amount that must be paid before taxes.
+,DataObject,DM_01_Tax cost,Total cost of the tax.
+,DataObject,DM_01_Total cost,"Total rate card cost, including taxes."
+,DataObject,DM_01_Description,Detailed description of the rate card cost.

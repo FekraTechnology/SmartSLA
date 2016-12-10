@@ -3,6 +3,12 @@ import "HelperLib.sol";
 
 contract PayNowAlpha {
 		//Task Record Data structure
+		struct previousStates {
+			string newState;
+			string oldState;
+			string timestamp;
+		}
+
 		struct taskRecord {
 			address requester;//requester address (mapped to user sys_id in servicenow)
 			address fulfiller;//fulfiller address (mapped to user sys_id in servicenow)
@@ -13,8 +19,9 @@ contract PayNowAlpha {
 			string taskUpdatedOn;//last update timestamp
 			uint deposit;//need an array of structures to hold deposits?
 
-			string[] previousStates;//array of states changes
+			previousStates[] prevStates;//array of states changes
 		}
+
 
 		struct taskState{
 		}
