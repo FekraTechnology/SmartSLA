@@ -1,5 +1,5 @@
 /*
-This contract os based on
+This contract os based on EC2.0 Token Standard
 */
 
 pragma solidity ^0.4.2;
